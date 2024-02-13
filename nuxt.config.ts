@@ -121,7 +121,7 @@ export default defineNuxtConfig({
         "newsletter": false, 
         "nftLaunchpad": false, 
         "randomMintedPosts": true, 
-        "swap": false, 
+        "swap": true, 
         "stake": false, 
         "sendTokens": true, 
         "spotify": false
@@ -133,7 +133,7 @@ export default defineNuxtConfig({
       stakeTokenSymbol: "BGT", // stake token symbol (governance token symbol)
       supportedChainId: 168587773,
       swapPriceImpactMaxBps: 1000, // max price impact in bips (1 bps = 0.01%, 1000bps = 10%) for the swap function
-      swapRouterAddress: "", // iggy swap router contract address
+      swapRouterAddress: "0x6AbDd1Bf5078cC6b0D75caFCdDC69A8339067F50", // iggy swap router contract address
       tenorApiKey: process.env.TENOR_KEY || "",
       tldName: ".blastchat",
       tokenAddress: null, // leave null if it's a native token of the chain
